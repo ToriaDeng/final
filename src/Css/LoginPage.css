@@ -1,0 +1,21 @@
+.login-window{
+    width: 100vw;
+}
+.login-box {
+   width: 100%;
+   margin-top: 40%;
+   margin-left: 35%;
+   align-items: center;
+}
+.login-button {
+   width: 60px;
+   height: 30px;
+   color: aliceblue;
+   background-color:#83AAFF;
+   margin-top: 10px;
+}
+
+.login-button:hover {
+    cursor:pointer;
+    color:pink;
+}

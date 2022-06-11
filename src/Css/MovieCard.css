@@ -1,0 +1,56 @@
+.movie-card{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:30px;
+    margin-left:40px;
+    margin-right: 10px;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:220px;
+    height: 400px;
+    /* cursor:pointer; */
+    border: 1px solid #007CC6;
+    background-color: #E9F7FF;
+    
+}
+
+.card-title:hover {
+    cursor:pointer;
+    color:grey;
+    text-decoration:underline; 
+
+}
+
+
+
+.card-image {
+   width: 220px;
+   height: 300px;
+   
+}
+
+
+.card-title {
+    color: black;
+    /* height: 50px; */
+    padding-top: 1px;
+    margin-bottom: 15px;
+    text-align: center; 
+    text-decoration:none; 
+    
+}
+
+
+
+.card-favourite {
+    display:flex;
+    color:grey;
+    font-size: 15px;
+    justify-content: flex-end;
+
+
+}
